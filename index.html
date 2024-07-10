@@ -56,9 +56,10 @@
     <br>
 </section>
 
+<script src="enable-threads.js"></script>
 <script src="ffmpeg.min.js"></script>
 <script>
-  if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+  // if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
 
   const { createFFmpeg, fetchFile } = FFmpeg
 
